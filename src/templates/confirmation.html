@@ -1,0 +1,75 @@
+---
+title: "Confirm your email address"
+preheader: "Confirm your email address to activate your account"
+bodyClass: bg-gray-100 dark-mode:bg-gray-999
+---
+
+<extends src="src/layouts/main.html">
+  <block name="template">
+    <p
+      class="
+        text-2xl
+        sm:leading-32
+        text-black
+        dark-mode:text-white
+        font-semibold
+        m-0
+        mb-36
+        font-serif
+      "
+    >
+      Welcome. You're almost there.
+    </p>
+    <p class="m-0 mb-24">
+      Click the link below to confirm your email address and finish your account
+      setup
+    </p>
+    <a
+      href="https://example.com"
+      class="
+        inline-block
+        uppercase
+        py-16
+        px-24
+        text-base
+        font-semibold
+        text-center
+        no-underline
+        text-white
+        bg-blue-500
+        hover:bg-blue-600
+      "
+    >
+      <!--[if mso
+        ]><i
+          style="
+            letter-spacing: 24px;
+            mso-font-width: -100%;
+            mso-text-raise: 30px;
+          "
+          >&#8202;</i
+        ><!
+      [endif]-->
+      <span style="mso-text-raise: 16px">Confirm Email Address</span>
+      <!--[if mso
+        ]><i style="letter-spacing: 24px; mso-font-width: -100%">&#8202;</i><!
+      [endif]-->
+    </a>
+    <table class="w-full">
+      <tr>
+        <td class="py-32">
+          <hr class="border-gray-100 border-b-0" />
+        </td>
+      </tr>
+    </table>
+    <p class="m-0 mb-16 text-gray-500">
+      Button not working? Copy and paste the link below into your web browser
+      <a class="text-gray-500" href="https://example.com/confirm#token"
+        >https://example.com/confirm#token</a
+      >
+    </p>
+    <p class="m-0 mb-16 text-gray-500">
+      If you did not make this request, you can ignore this email
+    </p>
+  </block>
+</extends>

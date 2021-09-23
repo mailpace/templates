@@ -1,0 +1,33 @@
+{
+  "private": true,
+  "scripts": {
+    "local": "maizzle build",
+    "production": "maizzle build production",
+    "watch": "maizzle serve"
+  },
+  "dependencies": {
+    "@maizzle/framework": "^3.7.1"
+  },
+  "name": "templates",
+  "description": "<div align=\"center\">   <p><a href=\"https://ohmysmtp.com\" target=\"_blank\"><img src=\"https://docs.ohmysmtp.com/img/logo.png\" width=\"200\" alt=\"OhMySMTP\"></a></p>   <p>A set of gorgeous Transactional HTML Email Templates built on TailwindCSS</p>   <div>",
+  "version": "1.0.0",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ohmysmtp/templates.git"
+  },
+  "keywords": [
+    "transactional",
+    "email",
+    "templates",
+    "maizzle",
+    "ohmysmtp",
+    "smtp"
+  ],
+  "author": "Paul Oms",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ohmysmtp/templates/issues"
+  },
+  "homepage": "https://github.com/ohmysmtp/templates#readme"
+}

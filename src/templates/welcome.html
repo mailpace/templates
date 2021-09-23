@@ -1,0 +1,68 @@
+---
+title: "Welcome!"
+preheader: "Thank you for signing up, time to get started"
+bodyClass: bg-gray-100 dark-mode:bg-gray-999
+---
+
+<extends src="src/layouts/main.html">
+  <block name="template">
+    <p
+      class="
+        text-2xl
+        sm:leading-32
+        text-black
+        dark-mode:text-white
+        font-semibold
+        m-0
+        mb-36
+        font-serif
+      "
+    >
+      Welcome. Time to get started.
+    </p>
+    <p class="m-0 mb-24">
+      Thanks for signing up to our service. To get started, do something by clicking the big button below
+    </p>
+    <a
+      href="https://example.com"
+      class="
+        inline-block
+        uppercase
+        py-16
+        px-24
+        text-base
+        font-semibold
+        text-center
+        no-underline
+        text-white
+        bg-blue-500
+        hover:bg-blue-600
+      "
+    >
+      <!--[if mso
+        ]><i
+          style="
+            letter-spacing: 24px;
+            mso-font-width: -100%;
+            mso-text-raise: 30px;
+          "
+          >&#8202;</i
+        ><!
+      [endif]-->
+      <span style="mso-text-raise: 16px">Do the thing</span>
+      <!--[if mso
+        ]><i style="letter-spacing: 24px; mso-font-width: -100%">&#8202;</i><!
+      [endif]-->
+    </a>
+    <table class="w-full">
+      <tr>
+        <td class="py-32">
+          <hr class="border-gray-100 border-b-0" />
+        </td>
+      </tr>
+    </table>
+    <p class="m-0 mb-16 text-gray-500">
+      You are receiving this message because you signed up to account at https://example.com. Manage your notification preferences <a class="text-gray-500" href="https://example.com">here</a>.
+    </p>
+  </block>
+</extends>

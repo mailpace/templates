@@ -1,0 +1,37 @@
+---
+title: "Sorry to see you go"
+preheader: "Your account has been deleted"
+bodyClass: bg-gray-100 dark-mode:bg-gray-999
+---
+
+<extends src="src/layouts/main.html">
+  <block name="template">
+    <p
+      class="
+        text-2xl
+        sm:leading-32
+        text-black
+        dark-mode:text-white
+        font-semibold
+        m-0
+        mb-36
+        font-serif
+      "
+    >
+      Sorry you had to leave us.
+    </p>
+    <p class="m-0 mb-24">
+      Your account has been deleted, you will not receive any more emails from us.
+    </p>
+    <table class="w-full">
+      <tr>
+        <td class="py-32">
+          <hr class="border-gray-100 border-b-0" />
+        </td>
+      </tr>
+    </table>
+    <p class="m-0 mb-16 text-gray-500">
+      Was this a mistake? Email us back and we'll reinstate your account. 
+    </p>
+  </block>
+</extends>
