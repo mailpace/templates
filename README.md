@@ -20,12 +20,12 @@ And yes, they support Dark Mode out of the box :)
 
 ## Show me the templates!
 
-- **Welcome** Send a welcome email to users with a call to action [Live Preview](todo)
-- **Email Confirmation** Confirm a new email address [Live Preview](todo)
-- **Password Reset** Reset a user's password [Live Preview](todo)
-- **Receipt** Example product receipt email [Live Preview](todo)
-- **Security Alert** Example security alert email [Live Preview](todo)
-- **Account Deleted** Notify a user on account deletion [Live Preview](todo)
+- **Welcome** Send a welcome email to users with a call to action [Live Preview](https://htmlpreview.github.io/?https://github.com/ohmysmtp/templates/blob/main/dist/welcome.html)
+- **Email Confirmation** Confirm a new email address [Live Preview](https://htmlpreview.github.io/?https://github.com/ohmysmtp/templates/blob/main/dist/confirmation.html)
+- **Password Reset** Reset a user's password [Live Preview](https://htmlpreview.github.io/?https://github.com/ohmysmtp/templates/blob/main/dist/password_reset.html)
+- **Receipt** Example product receipt email [Live Preview](https://htmlpreview.github.io/?https://github.com/ohmysmtp/templates/blob/main/dist/receipt.html)
+- **Security Alert** Example security alert email [Live Preview](https://htmlpreview.github.io/?https://github.com/ohmysmtp/templates/blob/main/dist/security_alert.html)
+- **Account Deleted** Notify a user on account deletion [Live Preview](https://htmlpreview.github.io/?https://github.com/ohmysmtp/templates/blob/main/dist/account_deleted.html)
 
 ## Using the Templates
 
