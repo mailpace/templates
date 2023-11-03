@@ -22,5 +22,8 @@ module.exports = {
       },
     },
   },
-  baseImageURL: 'https://docs.ohmysmtp.com/img/'
+  baseURL: {
+    url: 'https://docs.mailpace.com/img/',
+    tags: ['img'],
+  },
 }

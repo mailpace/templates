@@ -1,33 +1,34 @@
 {
-  "private": true,
   "scripts": {
-    "local": "maizzle build",
-    "production": "maizzle build production",
-    "watch": "maizzle serve"
+    "dev": "maizzle serve",
+    "build": "maizzle build production"
   },
   "dependencies": {
-    "@maizzle/framework": "^3.7.2"
+    "@maizzle/framework": "^4.6.0",
+    "tailwindcss-box-shadow": "^2.0.1",
+    "tailwindcss-email-variants": "^2.0.3",
+    "tailwindcss-mso": "^1.3.0"
   },
-  "name": "templates",
-  "description": "<div align=\"center\">   <p><a href=\"https://ohmysmtp.com\" target=\"_blank\"><img src=\"https://docs.ohmysmtp.com/img/logo.png\" width=\"200\" alt=\"OhMySMTP\"></a></p>   <p>A set of gorgeous Transactional HTML Email Templates built on TailwindCSS</p>   <div>",
-  "version": "1.0.0",
-  "devDependencies": {},
+  "name": "@mailpace/templates",
+  "description": "<div align=\"center\">   <p><a href=\"https://mailpace.com\" target=\"_blank\"><img src=\"https://docs.mailpace.com/img/logo.png\" width=\"200\" alt=\"MailPace\"></a></p>   <p>A set of gorgeous Transactional HTML Email Templates built on TailwindCSS</p>   <div>",
+  "version": "2.0.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ohmysmtp/templates.git"
+    "url": "git+https://github.com/mailpace/templates.git"
   },
   "keywords": [
     "transactional",
     "email",
     "templates",
     "maizzle",
-    "ohmysmtp",
+    "mailpace",
+    "mailpace",
     "smtp"
   ],
   "author": "Paul Oms",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ohmysmtp/templates/issues"
+    "url": "https://github.com/mailpace/templates/issues"
   },
-  "homepage": "https://github.com/ohmysmtp/templates#readme"
+  "homepage": "https://github.com/mailpace/templates#readme"
 }
