@@ -1,5 +1,4 @@
 module.exports = {
-  mode: 'jit',
   theme: {
     screens: {
       sm: {max: '600px'},
@@ -107,16 +106,10 @@ module.exports = {
         '8xl': '96px',
         '9xl': '128px',
       },
-      inset: theme => ({
-        ...theme('spacing'),
-      }),
       letterSpacing: theme => ({
         ...theme('spacing'),
       }),
       lineHeight: theme => ({
-        ...theme('spacing'),
-      }),
-      maxHeight: theme => ({
         ...theme('spacing'),
       }),
       maxWidth: theme => ({
@@ -142,11 +135,17 @@ module.exports = {
     },
   },
   corePlugins: {
-    animation: false,
+    preflight: false,
     backgroundOpacity: false,
     borderOpacity: false,
+    boxShadow: false,
     divideOpacity: false,
     placeholderOpacity: false,
     textOpacity: false,
   },
+  plugins: [
+    require('tailwindcss-mso'),
+    require('tailwindcss-box-shadow'),
+    require('tailwindcss-email-variants'),
+  ],
 }
