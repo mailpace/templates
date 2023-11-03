@@ -1,5 +1,4 @@
 {
-  "private": true,
   "scripts": {
     "dev": "maizzle serve",
     "build": "maizzle build production"
