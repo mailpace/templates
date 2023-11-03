@@ -87,4 +87,4 @@ This code is open-source software licensed under the [MIT license](https://opens
 [github-ci]: https://github.com/mailpace/templates/actions
 [github-ci-shield]: https://img.shields.io/github/workflow/status/mailpace/cli/Node.js%20CI?style=flat-square
 [license]: ./LICENSE
-[license-shield]: https://img.shields.io/npm/l/mailpace/templates.svg?style=flat-square&color=0e9f6e
+[license-shield]: https://img.shields.io/github/license/mailpace/templates.svg?style=flat-square&color=0e9f6e
